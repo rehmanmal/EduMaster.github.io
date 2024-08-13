@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduMaster: Empowering Minds for a Brighter Future</title>
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Swiper CDN Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <section class="flex">
+            <a href="#home" class="logo">EduMaster</a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#courses">Courses</a>
+                <a href="#teachers">Teacher</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </section>
+    </header>
+    <!-- Hero Section -->
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>Online <span>Education.</span></h3>
+                <a href="#contact" class="btn">Contact Us</a>
+            </div>
+            <div class="image">
+                <img src="img/home-img.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Counter Section -->
+    <section class="count">
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <div class="content">
+                    <h3>150+</h3>
+                    <p>Courses</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-user-graduate"></i>
+                <div class="content">
+                    <h3>1300+</h3>
+                    <p>Student</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-chalkboard-user"></i>
+                <div class="content">
+                    <h3>80+</h3>
+                    <p>Teachers</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-face-smile"></i>
+                <div class="content">
+                    <h3>100%</h3>
+                    <p>Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="row">
+            <div class="image">
+                <img src="img/about-img.svg" alt="">
+            </div>
+            <div class="content">
+                <h3>Why Choose EduMaster?</h3>
+                <p>At EduMaster, we believe in the power of education to transform lives. Our mission is to provide
+                    high-quality, accessible, and engaging learning experiences for everyone, everywhere. From
+                    comprehensive courses to interactive resources, we are committed to supporting learners at every
+                    stage of their educational journey.</p>
+                <a href="#contact" class="btn-primary">Join us Today!</a>
+            </div>
+        </div>
+    </section>
+    <!-- Course Section -->
+    <section class="courses" id="courses">
+        <h1 class="heading">Our <span>Courses</span> </h1>
+        <div class="swiper course-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <img src="img/course-1.svg" alt="">
+                    <h3>Web Development Bootcamp</h3>
+                    <p>Learn to build dynamic and responsive websites from scratch. This course covers HTML, CSS,
+                        JavaScript, and popular frameworks like React and Angular.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="img/course-2.svg" alt="">
+                    <h3>Data Science and Machine Learning</h3>
+                    <p>Dive into the world of data analysis and machine learning. Learn to use Python, R, and essential
+                        tools to analyze data and build predictive models.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="img/course-3.svg" alt="">
+                    <h3>Digital Marketing Masterclass
+                    </h3>
+                    <p>Master the art of online marketing. This course covers SEO, content marketing, social media
+                        strategies, and more to help you boost your online presence.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="img/course-4.svg" alt="">
+                    <h3>Graphic Design Essentials</h3>
+                    <p>Unleash your creativity with our graphic design course. Learn to use tools like Adobe Photoshop
+                        and Illustrator to create stunning visuals.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="img/course-5.svg" alt="">
+                    <h3>Business Management and Leadership
+                    </h3>
+                    <p>Enhance your management skills with our comprehensive course on business management and
+                        leadership. Learn strategies for effective team leadership and organizational success.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="img/course-6.svg" alt="">
+                    <h3>Full Stack Development</h3>
+                    <p>Master the art of full stack development. This comprehensive course covers both front-end and
+                        back-end technologies including HTML, CSS, JavaScript, Node.js, Express, MongoDB, and more.
+                        Learn to build robust and scalable web applications from scratch.</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- Teacher Section -->
+    <section class="teachers" id="teachers">
+        <h1 class="heading">Expert <span>Tutors</span></h1>
+        <div class="swiper teachers-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <img src="img/tutor-1.jpg" alt="">
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                    <h3>Ahmed Khan</h3>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="img/tutor-2.jpg" alt="">
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                    <h3>Saad Sheikh</h3>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="img/tutor-3.jpg" alt="">
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                    <h3>Imran Ali</h3>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="img/tutor-4.jpg" alt="">
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                    <h3>Ayesha Farooq</h3>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="img/tutor-5.jpg" alt="">
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                    <h3>Sana Malik</h3>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="img/tutor-6.jpg" alt="">
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                    <h3>Fatima Siddiqui</h3>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <h1 class="heading">Student's <span>Reviews</span></h1>
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <p>EduMaster has transformed the way I learn. The courses are well-structured and easy to follow. I
+                        highly recommend it to anyone looking to upgrade their skills.</p>
+                    <div class="user">
+                        <img src="img/student-1.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Ali Khan</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <p>The community support at EduMaster is fantastic. I've met so many like-minded learners who are
+                        always willing to help.</p>
+                    <div class="user">
+                        <img src="img/student-2.avif" alt="">
+                        <div class="user-info">
+                            <h3>Bilal Saeed</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <p>EduMaster's certification has helped me advance in my career. It's recognized by many employers,
+                        and I'm grateful for the opportunities it has opened up for me.</p>
+                    <div class="user">
+                        <img src="img/student-3.avif" alt="">
+                        <div class="user-info">
+                            <h3>Hamza Sheikh</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <p>The courses are engaging and interactive. I never thought online learning could be this
+                        effective.</p>
+                    <div class="user">
+                        <img src="img/student-4.avif" alt="">
+                        <div class="user-info">
+                            <h3>Fatima Noor</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <p>I love the flexibility that EduMaster offers. Being able to learn at my own pace has made all the
+                        difference for me.</p>
+                    <div class="user">
+                        <img src="img/student-5.avif" alt="">
+                        <div class="user-info">
+                            <h3>Ayesha Malik</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <p>The instructors at EduMaster are truly experts in their fields. I've gained so much practical
+                        knowledge that I can apply directly to my job.</p>
+                    <div class="user">
+                        <img src="img/student-6.avif" alt="">
+                        <div class="user-info">
+                            <h3>Sara Ahmed</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact</span> Us</h1>
+        <div class="row">
+            <div class="image">
+                <img src="img/Contact us.svg" alt="">
+            </div>
+            <form action="" method="post">
+                <span>Your Name</span>
+                <input type="text" required placeholder="Enter Your Full Name" maxlength="50" name="name" class="box">
+                <span>Your Email</span>
+                <input type="email" required placeholder="Enter Your Email" maxlength="50" name="Email" class="box">
+                <span>Your Number</span>
+                <input type="number" required placeholder="Enter Your Number" maxlength="99999999999" min="0"
+                    name="number" class="box" onkeypress="if(this.value.length == 10) return false;">
+                <span>Select Cource</span>
+                <select name="course" class="box" required>
+                    <option value="" disabled selected>Select the cource</option>
+                    <option value="web developement">Web Developement</option>
+                    <option value="Full Stack JavaScript">Full Stack JavaScript</option>
+                    <option value="Python for Data Science">Python for Data Science</option>
+                    <option value="Mobile App Development with Flutter">Mobile App Development with Flutter</option>
+                    <option value="Cybersecurity Essentials">Cybersecurity Essentials</option>
+                    <option value="Cloud Computing with AWS">Cloud Computing with AWS</option>
+                </select>
+                <span>select gender</span>
+                <div class="radio">
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male" style="color: white;">male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female" style="color: white;">female</label>
+                </div>
+                <input type="submit" value="send message" class="btn2" name="send">
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <section>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-youtube"></a>
+            </div>
+            <div class="credit">
+                &copy; 2024 <span>EduMaster</span> || All rights reserved.
+            </div>
+        </section>
+    </footer>
+    <!-- Swwiper JS CDN Link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- JavaScript Files -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
